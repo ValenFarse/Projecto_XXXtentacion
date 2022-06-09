@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500&display=swap');
+
+@media(min-width: 1024){body{background-color: pink;}}
+
+
+h1{color:red}
+nav p{color:purple;}
+.desc {color: rgb(78, 129, 0);
+width: 20%;}
+#id1{color: aquamarine;}
+h1{font-size: 30px}
+
+.h1{font-family:'Times New Roman', Times, serif ;}
+li{list-style-type: none;}
+.link{text-decoration: none;}
+h1{background-color: black;}
+body{background-image:url(https://images.alphacoders.com/104/1048850.png)     ;}
+iframe{width: 50%;}
+.desc2{color: whitesmoke;}
+.imagb{margin: 100px 121px 75px 115px}
+
+div{
+
+
+background-color: rgb(106, 114, 139);
+margin: 5px;
+
+}
+h3{color: rgb(255, 255, 255);}
+
+.padre_flex{
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-around  ; 
+
+background-color: rgb(21, 9, 32);
+}
+
+.grid1{
+    display: grid;
+grid-template-columns: repeat(2, 3fr) repeat(3, 1fr) 20%;
+grid-template-rows: repeat(3, 50vh);
+
+}
+.grid_area{
+    align-items: center;
+    border: 5px solid yellow;
+    color: whitesmoke;
+    background-color: grey;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    display: grid;
+    grid-template-areas:
+"Cabeza Cabeza Cabeza"
+"Xten peep juice"
+"pie pie pie"
+"f1 f2 f3"
+    ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh 10vh 10vh 10vh;
+}
+
+.grids_temas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#Cabeza{grid-area: Cabeza;}
+#pie{grid-area: pie;}
+#xt{grid-area: Xten;}
+#peep{grid-area: peep;}
+#juice{grid-area: juice;}
+#fecha1{grid-area: f1;}
+#fecha2{grid-area: f2;}
+#fecha3{grid-area:f3 ;}
+
+header nav ul{display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+
+
+; color: rgb(255, 255, 255);}
+
+.animacion1{
+
+}
+
+.animacion1:hover{
+
+scale: ;
+}
