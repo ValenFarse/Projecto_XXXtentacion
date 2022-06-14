@@ -3,14 +3,22 @@
 @media(min-width: 1024){body{background-color: pink;}}
 
 
-h1{color:red}
+h1{color:rgb(255, 242, 170)
+
+}
 nav p{color:purple;}
 .desc {color: rgb(78, 129, 0);
 width: 20%;}
 #id1{color: aquamarine;}
 h1{font-size: 30px}
 
-.h1{font-family:'Times New Roman', Times, serif ;}
+.h1{font-family:'Times New Roman', Times, serif ;
+    animation-name: efecto1;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 1.5s;
+    animation-delay: 0.3s;
+}
 li{list-style-type: none;}
 .link{text-decoration: none;}
 h1{background-color: black;}
@@ -78,4 +86,39 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr
 
 
 ; color: rgb(255, 255, 255);}
+
+.animacion1{scale: 100%;
+
+}
+.animacion1:hover{
+    transition: all 1s;
+    transform: scale(1.5,1.5);
+
+}
+
+
+@keyframes efecto1 {
+    0%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 1%, rgb(255, 39, 1));}
+    5%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 10%, rgb(255, 39, 1))}
+    10%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 20%, rgb(255, 39, 1))}
+    15%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 30%, rgb(255, 39, 1))}
+    20%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 40%, rgb(255, 39, 1))}
+    25%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 50%, rgb(255, 39, 1))}
+    30%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 60%, rgb(255, 39, 1))}
+    35%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 70%, rgb(255, 39, 1))}
+    40%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 80%, rgb(255, 39, 1))}
+    45%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 90%, rgb(255, 39, 1))}
+    50%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 100%, rgb(255, 39, 1))}
+    55%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 90%, rgb(255, 39, 1))}
+    60%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 80%, rgb(255, 39, 1))}
+    65%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 70%, rgb(255, 39, 1))}
+    70%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 60%, rgb(255, 39, 1))}
+    75%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 50%, rgb(255, 39, 1))}
+    80%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 40%, rgb(255, 39, 1))}
+    85%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 30%, rgb(255, 39, 1))}
+    90%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 20%, rgb(255, 39, 1))}
+    95%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 10%, rgb(255, 39, 1))}
+    100%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 1%, rgb(255, 39, 1))}
+
+}
 
