@@ -52,9 +52,9 @@ grid-template-rows: repeat(3, 50vh);
 }
 .grid_area{
     align-items: center;
-    border: 5px solid yellow;
+    border: 5px solid rgb(255, 255, 255);
     color: whitesmoke;
-    background-color: grey;
+    background-color: rgb(39, 38, 38);
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     display: grid;
@@ -63,7 +63,7 @@ grid-template-rows: repeat(3, 50vh);
 "Xten peep juice"
 "pie pie pie"
 "f1 f2 f3"
-    ;
+    ; 
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 10vh 10vh 10vh 10vh;
 }
@@ -72,7 +72,7 @@ grid-template-rows: repeat(3, 50vh);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-#Cabeza{grid-area: Cabeza;}
+#Cabeza{grid-area: Cabeza ;}
 #pie{grid-area: pie;}
 #xt{grid-area: Xten;}
 #peep{grid-area: peep;}
@@ -122,3 +122,4 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr
 
 }
 
+a{text-decoration: none;}
