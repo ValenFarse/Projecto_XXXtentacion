@@ -1,3 +1,8 @@
-
+header nav {
+  display: grid;
+}
+header nav ul {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
 
 /*# sourceMappingURL=destino.css.map */
