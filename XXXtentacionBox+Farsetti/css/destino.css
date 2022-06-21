@@ -1,8 +1,157 @@
-header nav {
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500&display=swap");
+@media (min-width: 1024) {
+  body {
+    background-color: pink;
+  }
+}
+body {
+  background-image: url(https://images.alphacoders.com/104/1048850.png);
+}
+
+header h1 {
+  color: red;
+  font-size: 30px;
+  background-color: black;
+}
+header h1 nav p {
+  color: purple;
+}
+header h1 nav ul {
   display: grid;
-}
-header nav ul {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  color: rgb(255, 255, 255);
 }
+header h1 nav ul li {
+  list-style-type: none;
+}
+header h1 nav ul .link {
+  text-decoration: none;
+}
+header main p h3 {
+  color: rgb(255, 255, 255);
+}
+header main p .desc {
+  color: whitesmoke;
+}
+header main p .desc .desc2 {
+  color: whitesmoke;
+}
+header main div {
+  background-color: rgb(106, 114, 139);
+  margin: 5px;
+}
+
+.imagb {
+  margin: 100px 121px 75px 115px;
+}
+
+#id1 {
+  color: aquamarine;
+}
+
+.h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+iframe {
+  width: 50%;
+}
+
+.padre_flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  background-color: rgb(21, 9, 32);
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr) repeat(3, 1fr) 20%;
+  grid-template-rows: repeat(3, 50vh);
+}
+
+.grid_area {
+  align-items: center;
+  border: 5px solid yellow;
+  color: whitesmoke;
+  background-color: grey;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  display: grid;
+  grid-template-areas: "Cabeza Cabeza Cabeza" "Xten peep juice" "pie pie pie" "f1 f2 f3";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10vh 10vh 10vh 10vh;
+}
+
+.grids_temas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#Cabeza {
+  grid-area: Cabeza;
+}
+
+#pie {
+  grid-area: pie;
+}
+
+#xt {
+  grid-area: Xten;
+}
+
+#peep {
+  grid-area: peep;
+}
+
+#juice {
+  grid-area: juice;
+}
+
+#fecha1 {
+  grid-area: f1;
+}
+
+#fecha2 {
+  grid-area: f2;
+}
+
+#fecha3 {
+  grid-area: f3;
+}
+
+@keyframes efecto1 {
+    0%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 1%, rgb(255, 179, 1));}
+    5%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 10%, rgb(255, 179, 1))}
+    10%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 20%, rgb(255, 179, 1))}
+    15%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 30%, rgb(255, 179, 1))}
+    20%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 40%, rgb(255, 179, 1))}
+    25%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 50%, rgb(255, 179, 1))}
+    30%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 60%, rgb(255, 179, 1))}
+    35%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 70%, rgb(255, 179, 1))}
+    40%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 80%, rgb(255, 179, 1))}
+    45%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 90%, rgb(255, 179, 1))}
+    50%{ background-image: linear-gradient(to right, rgb(14, 12, 12) 100%, rgb(255, 179, 1))}
+    55%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 90%, rgb(255, 179, 1))}
+    60%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 80%, rgb(255, 179, 1))}
+    65%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 70%, rgb(255, 179, 1))}
+    70%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 60%, rgb(255, 179, 1))}
+    75%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 50%, rgb(255, 179, 1))}
+    80%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 40%, rgb(255, 179, 1))}
+    85%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 30%, rgb(255, 179, 1))}
+    90%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 20%, rgb(255, 179, 1))}
+    95%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 10%, rgb(255, 179, 1))}
+    100%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 1%, rgb(255, 179, 1))}
+
+}
+.animacion1{animation-name: efecto1;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 1.5s;
+    animation-delay: 0.3s;}
 
 /*# sourceMappingURL=destino.css.map */
