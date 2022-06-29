@@ -1,8 +1,7 @@
-
-
+@import "../scss/Boot-scss/bootstrap.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500&display=swap');
-//algo no funciom
+
 
 
 
@@ -20,7 +19,7 @@ body {
 
 header {
     h1 {
-        color: rgb(255, 30, 30);
+        color: rgb(255, 36, 36);
         font-size: 30px;
         background-color: black;
 
@@ -165,4 +164,49 @@ iframe {
 
 #fecha3 {
     grid-area: f3;
+}
+
+$anchura: 400px;
+
+.grid_azul {
+    @extend .grid_area;
+}
+
+
+$colores: (
+
+twitter: #55acee,
+Instagram: #ee55e1,
+Youtube: #ee5555,
+Spotify: #55ee7b,
+);
+
+
+@each $nombre, $valor in $colores {
+    .boton-#{$nombre} {
+        background-color: $valor;
+        text-decoration: none;
+    }
+}
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ .box {
+    @include sizes(500px, 50px);
+ }
+ 
+ $estilos: (
+  color: #3673D9,
+  centro: center,
+  Fuente: 35px,
+  1rem : 1rem
+);
+
+div {
+  background-color: map-get($estilos, color);
+  text-align: map-get($estilos, centro);
+  padding: map-get($estilos, 1rem);
+  font-size:map-get($estilos, tFuente);
 }
