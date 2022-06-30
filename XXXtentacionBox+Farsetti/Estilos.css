@@ -11914,17 +11914,19 @@ textarea.form-control-lg {
 
 
 
-h1{color:red}
+body header h1{color:red;
+  background-color: black;
+  font-size: 30px;
+}
 nav p{color:purple;}
 .desc {color: rgb(78, 129, 0);
 width: 20%;}
 #id1{color: aquamarine;}
-h1{font-size: 30px}
+
 
 .h1{font-family:'Times New Roman', Times, serif ;}
 li{list-style-type: none;}
 .link{text-decoration: none;}
-h1{background-color: black;}
 body{background-image:url(https://images.alphacoders.com/104/1048850.png)     ;}
 iframe{width: 50%;}
 .desc2{color: whitesmoke;}
@@ -11955,8 +11957,8 @@ grid-template-rows: repeat(3, 50vh);
 }
 .grid_area{
     align-items: center;
-    border: 5px solid yellow;
-    color: whitesmoke;
+    border: 5px solid blueviolet;
+    color: black;
     background-color: grey;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
@@ -12014,7 +12016,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr
     100%{ background-image: linear-gradient(to left, rgb(14, 12, 12) 1%, rgb(255, 1, 1))}
 
 }
-.animacion1{animation-name: efecto1;
+h1{animation-name: efecto1;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     animation-duration: 1.5s;
