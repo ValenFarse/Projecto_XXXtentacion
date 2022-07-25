@@ -11930,7 +11930,7 @@ li{list-style-type: none;}
 body{background-image:url(https://images.alphacoders.com/104/1048850.png)     ;}
 iframe{width: 50%;}
 .desc2{color: whitesmoke;}
-.imagb{margin: 100px 121px 75px 115px}
+.imagb{margin: 4fr}
 
 div{
 
@@ -11957,9 +11957,9 @@ grid-template-rows: repeat(3, 50vh);
 }
 .grid_area{
     align-items: center;
-    border: 5px solid blueviolet;
-    color: black;
-    background-color: grey;
+    border: 5px solid wheat;
+    color: gray;
+    background-color: black;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     display: grid;
@@ -11976,6 +11976,8 @@ grid-template-rows: repeat(3, 50vh);
 .grids_temas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    
 }
 #Cabeza{grid-area: Cabeza;}
 #pie{grid-area: pie;}
@@ -12023,23 +12025,28 @@ h1{animation-name: efecto1;
     animation-delay: 0.3s;}
 
     .boton-twitter {
-        background-color: #55acee;
+        background-color: #04414d;
         text-decoration: none;
+        color: wheat;
       }
       
       .boton-Instagram {
-        background-color: #ee55e1;
+        background-color: #ee5555;
         text-decoration: none;
+        color: black;
       }
       
       .boton-Youtube {
         background-color: #ee5555;
         text-decoration: none;
+        color: black;
       }
       
       .boton-Spotify {
         background-color: #55ee7b;
-        text-decoration: none;}
+        text-decoration: none;
+        color: black;}
+        
 
         .box {
             height: 50px;
@@ -12051,3 +12058,4 @@ h1{animation-name: efecto1;
             text-align: center;
             padding: 1rem;}
 
+.test0 {text-align: center;}
